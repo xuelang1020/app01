@@ -5,7 +5,7 @@
 			用户名<input type="text" v-model.trim='user.name'>
 		</div>
 		<div>
-			密码<input type="password" v-model='user.password'>
+			密码<input type="password" v-model.number='user.password'>
 		</div>
 		<div>
 			描述<textarea v-model='user.description' cols="30" rows="3"></textarea>
