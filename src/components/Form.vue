@@ -30,6 +30,7 @@
 		</div>
 		<div>
 			家乡
+			<el-table></el-table>
 			<select v-model='user.address'>
 				<option value="gs">甘肃</option>
 				<option value="sx">山西</option>
